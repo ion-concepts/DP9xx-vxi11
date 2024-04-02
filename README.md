@@ -2,6 +2,7 @@
 Python Application to control Rigol DP9xx PSU using python leveraging vxi11 library
 
 ## Example
+```
 ianb@cruncher:~/rigol$ python3
 Python 3.8.10 (default, Nov 22 2023, 10:22:35)
 [GCC 9.4.0] on linux
@@ -17,4 +18,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> instrument.measure(3)
 {'voltage': Decimal('5.00'), 'current': Decimal('0.00'), 'power': Decimal('0.000')}
 >>> quit()
-
+```
